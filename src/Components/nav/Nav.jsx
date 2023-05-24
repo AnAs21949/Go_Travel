@@ -1,6 +1,5 @@
 import React from "react"
 import "./nav.css"
-// import {SiYourtraveldottv} from "react-icons/si"
 import {AiFillCloseCircle} from "react-icons/ai"
 import {TbGridDots} from "react-icons/tb"
 import {BsArrowUpRight} from "react-icons/bs"
