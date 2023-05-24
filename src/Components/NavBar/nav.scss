@@ -1,0 +1,202 @@
+:root{
+    --PrimaryColor: hsl(26, 93%, 50%);
+    --HoverColor: hsl(26, 90%, 42%);
+    --WhiteColor: hsl(0, 0%, 100%);
+    --BlackColor: hsl(0, 0%, 18%);
+    --textColor: hsl(240, 1%, 48%);
+    --WhiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --greyBg: hsl(0, 0%, 96%);
+    --inputColor: hsl(330, 12%, 97%);
+}
+:root {
+    --tw-bg-opacity: 1; /* Set the opacity value here */
+}
+
+.navBarSection{
+    .header{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: transparent;
+        width: 100%;
+        padding: 1rem;
+        z-index: 10000;
+
+        .logoDiv{
+            .logo{
+                color: var(--WhiteColor);
+                font-weight: 500;
+                cursor: pointer;
+                align-items: center;
+                justify-content: center;
+
+                .icon{
+                    font-size: 25px;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .navBar{
+                background: gray;
+                position: absolute;
+                height: max-content;
+                padding: 3rem;
+                width: 100%;
+                top: 0;
+                left: -500%;
+                box-shadow: 0 2px 4px rgba(209, 209,209,0.904);
+                transition: .5s ease;
+                z-index: 1000;
+                .navList{
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 100%;
+                    margin: auto;
+
+                    .navItem{
+                        padding: 1rem 0;
+
+                        .navLink{
+                            color: var(--whiteColor);
+                            font-size: .9rem;
+                            font-weight: 600;
+                            &:hover{
+                                color: var(--PrimaryColor);
+                            }
+                        }
+                    }
+                    .headerBtns{
+                        flex-direction: column;
+                        .btn{
+                            margin-top: 1rem;
+
+                            a{
+                                font-weight: 600;
+                                &:hover{
+                                    color: var(--WhiteColor);
+                                }
+                            }
+                        }
+                        .loginBtn{
+                            background: none;
+                            border: none;
+                            a{
+                                color: var(--PrimaryColor);
+                            }
+                            &:hover{
+                                background: var(--HoverColor);
+                                a{
+                                    color: var(--WhiteColor);
+                                }
+                            }
+                        }
+                        
+                        
+                    }
+                }
+
+                .closeNavbar{
+                    position: absolute;
+                    top: 1rem;
+                    right: 1.5rem;
+                    color: var(--PrimaryColor);
+                    &:hover{
+                        color: var(--HoverColor);
+                    }
+                }
+            }
+            .activeNavbar{
+                left: 0;
+            }
+        }
+
+        .toggleNavbar{
+            .icon{
+                font-size: 25px;
+                color: var(--whiteColor);
+                &:hover{
+                    color: var(--PrimaryColor);
+                }
+            }
+        }
+    }
+    .activeHeader{
+        background: var(--textColor ) ;
+        box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.45);
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .toggleNavbar, .closeNavbar{
+        display: none;
+    }
+
+    .header{
+        padding: 1.5rem 2rem !important;
+        .navBar{
+            .navList{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                .navItem{
+                    .navLink{
+                        color: var(--WhiteColor) ;
+                        padding: 0 .45rem;
+                        font-size: .9rem;
+                        font-weight: 400;
+                        &:hover{
+                            a{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                .btn{
+                    margin-left: 1rem;
+                    a{
+                        color: #fff;
+                        font-weight: 500;
+                    }
+                }
+                .loginBtn{
+                    background: none;
+                    border: none;
+                    padding: 0 !important;
+                    margin-right: .7rem;
+                    &:hover{
+                        // background: var(--PrimaryColor);
+                        color: var(--WhiteColor);
+                    }
+                }
+                .signBtn{
+                    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+                    border: none;
+                    padding: .4rem 1.5rem;
+                    border-radius: 3rem;
+                    outline: none;
+                    a{
+                        color: black;
+                    }
+                    &:hover{
+                        // background: var(--PrimaryColor);
+                        color: var(--WhiteColor);
+                        outline: none;
+                        background-color: rgb(100, 100, 247);
+                        a{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
