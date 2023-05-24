@@ -1,0 +1,175 @@
+:root {
+  --PrimaryColor: hsl(26, 93%, 50%);
+  --HoverColor: hsl(26, 90%, 42%);
+  --WhiteColor: hsl(0, 0%, 100%);
+  --BlackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --WhiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --greyBg: hsl(0, 0%, 96%);
+  --inputColor: hsl(330, 12%, 97%);
+}
+
+:root {
+  --tw-bg-opacity: 1; /* Set the opacity value here */
+}
+
+.navBarSection .header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  width: 100%;
+  padding: 1rem;
+  z-index: 10000;
+}
+.navBarSection .header .logoDiv .logo {
+  color: var(--WhiteColor);
+  font-weight: 500;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.navBarSection .header .logoDiv .logo .icon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .navBarSection .header .navBar {
+    background: gray;
+    position: absolute;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 3rem;
+    width: 100%;
+    top: 0;
+    left: -500%;
+    box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+    transition: 0.5s ease;
+    z-index: 1000;
+  }
+  .navBarSection .header .navBar .navList {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .navBarSection .header .navBar .navList .navItem {
+    padding: 1rem 0;
+  }
+  .navBarSection .header .navBar .navList .navItem .navLink {
+    color: var(--whiteColor);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .navBarSection .header .navBar .navList .navItem .navLink:hover {
+    color: var(--PrimaryColor);
+  }
+  .navBarSection .header .navBar .navList .headerBtns {
+    flex-direction: column;
+  }
+  .navBarSection .header .navBar .navList .headerBtns .btn {
+    margin-top: 1rem;
+  }
+  .navBarSection .header .navBar .navList .headerBtns .btn a {
+    font-weight: 600;
+  }
+  .navBarSection .header .navBar .navList .headerBtns .btn a:hover {
+    color: var(--WhiteColor);
+  }
+  .navBarSection .header .navBar .navList .headerBtns .loginBtn {
+    background: none;
+    border: none;
+  }
+  .navBarSection .header .navBar .navList .headerBtns .loginBtn a {
+    color: var(--PrimaryColor);
+  }
+  .navBarSection .header .navBar .navList .headerBtns .loginBtn:hover {
+    background: var(--HoverColor);
+  }
+  .navBarSection .header .navBar .navList .headerBtns .loginBtn:hover a {
+    color: var(--WhiteColor);
+  }
+  .navBarSection .header .navBar .closeNavbar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: var(--PrimaryColor);
+  }
+  .navBarSection .header .navBar .closeNavbar:hover {
+    color: var(--HoverColor);
+  }
+  .navBarSection .header .activeNavbar {
+    left: 0;
+  }
+}
+.navBarSection .header .toggleNavbar .icon {
+  font-size: 25px;
+  color: var(--whiteColor);
+}
+.navBarSection .header .toggleNavbar .icon:hover {
+  color: var(--PrimaryColor);
+}
+.navBarSection .activeHeader {
+  background: var(--textColor);
+  box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.45);
+}
+
+@media screen and (min-width: 769px) {
+  .toggleNavbar, .closeNavbar {
+    display: none;
+  }
+  .header {
+    padding: 1.5rem 2rem !important;
+  }
+  .header .navBar .navList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .header .navBar .navList .navItem .navLink {
+    color: var(--WhiteColor);
+    padding: 0 0.45rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  .header .navBar .navList .navItem .navLink:hover a {
+    color: white;
+  }
+  .header .navBar .navList .btn {
+    margin-left: 1rem;
+  }
+  .header .navBar .navList .btn a {
+    color: #fff;
+    font-weight: 500;
+  }
+  .header .navBar .navList .loginBtn {
+    background: none;
+    border: none;
+    padding: 0 !important;
+    margin-right: 0.7rem;
+  }
+  .header .navBar .navList .loginBtn:hover {
+    color: var(--WhiteColor);
+  }
+  .header .navBar .navList .signBtn {
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    border: none;
+    padding: 0.4rem 1.5rem;
+    border-radius: 3rem;
+    outline: none;
+  }
+  .header .navBar .navList .signBtn a {
+    color: black;
+  }
+  .header .navBar .navList .signBtn:hover {
+    color: var(--WhiteColor);
+    outline: none;
+    background-color: rgb(100, 100, 247);
+  }
+  .header .navBar .navList .signBtn:hover a {
+    color: #fff;
+  }
+}/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,95 @@
+:root {
+  --PrimaryColor: hsl(26, 93%, 50%);
+  --HoverColor: hsl(26, 90%, 42%);
+  --WhiteColor: hsl(0, 0%, 100%);
+  --BlackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --WhiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --greyBg: hsl(0, 0%, 96%);
+  --inputColor: hsl(330, 12%, 97%);
+}
+
+.blog .secContainer {
+  text-align: left;
+}
+.blog .secContainer .Intro {
+  text-align: left !important;
+  padding: 1rem 2rem;
+}
+.blog .secContainer .Intro h1 {
+  font-size: 50px;
+  margin-top: 0.7rem;
+  line-height: 3.6rem;
+}
+.blog .mainContainer .blogs {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.blog .mainContainer .blogs img {
+  border-radius: 10px;
+}
+.blog .mainContainer .blogs .mainPost {
+  flex: 2;
+  position: relative;
+}
+.blog .mainContainer .blogs .mainPost img {
+  height: 70vh;
+}
+.blog .mainContainer .blogs .mainPost .postInfo {
+  top: 56%;
+  left: 5%;
+  position: absolute;
+}
+.blog .mainContainer .blogs .mainPost .postInfo a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+.blog .mainContainer .blogs .mainPost .postInfo a:hover {
+  text-decoration: underline;
+}
+.blog .mainContainer .blogs .mainPost .postInfo h4 {
+  color: #fff;
+  padding: 0.7rem 0;
+  font-size: 14px;
+}
+.blog .mainContainer .blogs .mainPost .postInfo p {
+  padding-top: 1.6rem;
+  color: #fff;
+  max-width: 50ch;
+}
+.blog .mainContainer .blogs .secPosts {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.blog .mainContainer .blogs .secPosts img {
+  height: 30vh;
+}
+.blog .mainContainer .blogs .secPosts a {
+  color: black;
+  font-weight: 500;
+}
+.blog .mainContainer .blogs .secPosts a:hover {
+  text-decoration: underline;
+}
+.blog .mainContainer .blogs .secPosts h4 {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 1rem 0;
+  color: black;
+}
+.blog .mainContainer .blogs .secPosts p {
+  font-size: 13px;
+}
+
+@media screen and (max-width: 884px) {
+  .mainContainer .blogs {
+    display: flex;
+    flex-direction: column !important;
+  }
+}/*# sourceMappingURL=blog.css.map */

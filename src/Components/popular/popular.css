@@ -1,0 +1,139 @@
+:root {
+  --PrimaryColor: hsl(26, 93%, 50%);
+  --HoverColor: hsl(26, 90%, 42%);
+  --WhiteColor: hsl(0, 0%, 100%);
+  --BlackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --WhiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --greyBg: hsl(0, 0%, 96%);
+  --inputColor: hsl(330, 12%, 97%);
+  --boxShadow: box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.45);
+}
+
+.popular {
+  padding-top: 15rem;
+  margin-top: 4rem;
+}
+.popular .secContainer .secHeader {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.popular .secContainer .secHeader .textDiv .secTitle {
+  line-height: 1.5rem;
+  padding: 1rem 0;
+}
+.popular .secContainer .secHeader .textDiv p {
+  font-size: 13px;
+  color: var(--textColor);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.popular .secContainer .secHeader .iconsDiv {
+  gap: 0.5rem;
+}
+.popular .secContainer .secHeader .iconsDiv .icon {
+  padding: 0.5rem;
+  background: var(--greyText);
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+.popular .secContainer .secHeader .iconsDiv .icon:hover {
+  background: var(--blackColor);
+  color: var(--WhiteColor);
+}
+.popular .secContainer .secHeader .iconsDiv .leftIcon {
+  color: var(--WhiteColor);
+}
+.popular .secContainer .secHeader .iconsDiv .leftIcon:hover {
+  background: var(--greyText);
+  color: var(--BlackColor);
+}
+.popular .mainContent {
+  padding: 2rem;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+.popular .mainContent .singleDestinantion {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.popular .mainContent .singleDestinantion .destImage {
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+}
+.popular .mainContent .singleDestinantion .destImage img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.popular .mainContent .singleDestinantion .destFooter .destText {
+  margin-top: 0.8rem;
+}
+.popular .mainContent .singleDestinantion .destFooter .destText h6 {
+  font-size: 20px;
+}
+.popular .mainContent .singleDestinantion .destFooter .destText .flex {
+  font-size: 16px;
+  font-weight: 600;
+  align-items: flex-start;
+  transform: translateY(5px);
+}
+.popular .mainContent .singleDestinantion .destFooter .destText .flex .icon {
+  color: var(--PrimaryColor);
+}
+.popular .mainContent .singleDestinantion:hover .overlayInfo {
+  overflow: visible;
+  padding: 1rem 1.5rem;
+  height: 100%;
+}
+
+@media screen and (min-width: 488px) {
+  .popular {
+    padding-top: 10rem;
+  }
+}
+@media screen and (min-width: 556px) {
+  .mainContent {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1.5rem !important;
+  }
+  .popular .secContainer .secHeader {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popular .secContainer .secHeader .textDiv {
+    text-align: start;
+    max-width: 70%;
+    padding-left: 1.9rem;
+  }
+  .popular .secContainer .secHeader .iconsDiv {
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 720px) {
+  .popular {
+    padding-top: 7rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .popular {
+    padding-top: 10rem;
+  }
+  .popular .secContainer .secHeader .textDiv .secTitle {
+    font-size: 2.2rem;
+  }
+  .popular .secContainer .secHeader .textDiv p {
+    font-size: 15px;
+  }
+  .popular .secContainer .mainContent {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem !important;
+  }
+}/*# sourceMappingURL=popular.css.map */
