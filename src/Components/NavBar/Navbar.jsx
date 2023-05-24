@@ -2,6 +2,7 @@ import React from 'react'
 import {AiFillCloseCircle} from "react-icons/ai"
 import {TbGridDots} from "react-icons/tb"
 import {BsArrowUpRight} from "react-icons/bs"
+import "./nav.css"
 
 
 function Navbar() {
