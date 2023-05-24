@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-import Nav from './Components/Nav/nav.jsx' 
+
+import Nav from './Components/Nav/Nav' 
 import Home from './Components/Home/Home' 
 import Popular from './Components/popular/Popular' 
 import Offers from './Components/Offers/Offers' 
