@@ -1,15 +1,15 @@
 {
-  "homepage": "https://github.com/AnAs21949/GoTravel#readme",
+  "homepage": "https://AnAs21949.github.io/Go_Travel",
   "name": "travel",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
-    "predeploy": "npm run build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
