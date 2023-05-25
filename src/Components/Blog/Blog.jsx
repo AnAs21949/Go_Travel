@@ -64,23 +64,23 @@ export default function Blog(){
                                     <div className="mainPost">
                                         <img src={img1} alt="" />
                                         <div className="postInfo">
-                                            <a href="">How to get around france</a>
+                                            <a href="">How to get around morocco</a>
                                             <h4>May 19,2023 . 12 min read</h4>
-                                            <p>From bike to bus and train to plane, here's everything you need to know about getting around in France.</p>
+                                            <p>From bike to bus and train to plane, here's everything you need to know about getting around in morocco.</p>
                                         </div>
                                     </div>
                                     <div className="secPosts">
                                         <div className="post1">
                                             <img src={img2} alt="" />
-                                            <a href="">The top 7 road trips in France</a>
+                                            <a href="">The top 7 road trips in Morocco</a>
                                             <h4>May 18, 2023 • 6 min read</h4>
-                                            <p>Hidden towns and rolling vineyards – France has it all on offer on a road trip. Explore this stunning country behind the wheel with our pick of the best.</p>
+                                            <p>Hidden towns and rolling vineyards – morocco has it all on offer on a road trip. Explore this stunning country behind the wheel with our pick of the best.</p>
                                         </div>
                                         <div className="post1">
                                             <img src={img} alt="" />
-                                            <a href="">The top 7 road trips in France</a>
+                                            <a href="">The top 7 road trips in Morocc</a>
                                             <h4>May 18, 2023 • 6 min read</h4>
-                                            <p>Hidden towns and rolling vineyards – France has it all on offer on a road trip. Explore this stunning country behind the wheel with our pick of the best.</p>
+                                            <p>Hidden towns and rolling vineyards – Morocco has it all on offer on a road trip. Explore this stunning country behind the wheel with our pick of the best.</p>
                                         </div>
                                     </div>
                                 </div>

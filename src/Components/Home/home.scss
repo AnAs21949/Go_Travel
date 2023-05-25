@@ -35,8 +35,10 @@ body{
         .homeText{
             text-align: center;
             .title{
-                color: var(--WhiteColor);
-                // color: black;
+                // color: var(--WhiteColor);
+                padding: 0;
+                background-color: rgba(190, 190, 190, .4);
+                color: black;
                 font-size: 2rem;
                 font-weight: 700;
                 line-height: 2.5rem;
@@ -159,8 +161,10 @@ body{
     .home{
         .secContainer{
             .homeText{
-                padding: 1rem 10rem;
-
+                padding: 1rem 0rem;
+                .btn{
+                    margin-top: 3rem;
+                }
                 .title{
                     font-size: 3.5rem;
                     margin: auto;

@@ -25,6 +25,28 @@ function Navbar() {
         }
     }
     window.addEventListener("scroll", addBg)
+
+
+
+
+
+
+    function scrollPage() {
+        // Change "elementId" to the ID of the element you want to attach the click event to
+        var element = document.getElementById("element");
+      
+        if (element) {
+          element.addEventListener("click", function() {
+            // Change "scrollPosition" to the desired scroll position in pixels
+            var scrollPosition = 4700; // Example: scrolling to 500 pixels
+            
+            window.scrollTo({
+              top: scrollPosition,
+              behavior: "smooth"
+            });
+          });
+        }
+      }
   return (
     <div>
       <section className="navBarSection">
@@ -37,28 +59,12 @@ function Navbar() {
 
                 <div className={active}>
                     <ul className="navList flex">
-                        <li className="navItem">
-                            <a href="#" className="navLink">Home</a>
-                        </li>
-                        <li className="navItem">
-                            <a href="#" className="navLink">Products</a>
-                        </li>
-                        <li className="navItem">
-                            <a href="#" className="navLink">Resources</a>
-                        </li>
-                        <li className="navItem">
-                            <a href="#" className="navLink">Contact</a>
-                        </li>
-                        <li className="navItem">
-                            <a href="#" className="navLink">Blog</a>
-                        </li>
+                        
 
                         <div className="headerBtns flex">
-                            <button className="btn loginBtn">
-                                <a href="#">Login</a>
-                            </button>
-                            <button className="signBtn">
-                                <a href="#">Sign Up</a>
+                            
+                            <button className="signBtn" onClick={scrollPage} id='element'>
+                                <a href="#">Offers</a>
                             </button>
                         </div>
                     </ul>

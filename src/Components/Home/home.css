@@ -35,7 +35,9 @@ body {
   text-align: center;
 }
 .home .secContainer .homeText .title {
-  color: var(--WhiteColor);
+  padding: 0;
+  background-color: rgba(190, 190, 190, 0.4);
+  color: black;
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.5rem;
@@ -133,7 +135,10 @@ body {
 }
 @media screen and (min-width: 720px) {
   .home .secContainer .homeText {
-    padding: 1rem 10rem;
+    padding: 1rem 0rem;
+  }
+  .home .secContainer .homeText .btn {
+    margin-top: 3rem;
   }
   .home .secContainer .homeText .title {
     font-size: 3.5rem;

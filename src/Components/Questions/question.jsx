@@ -57,8 +57,7 @@ function Questions() {
           </div>
           {showAnswer1 && (
             <p className="seconde-part a-1">
-              Some popular tourist attractions in the area include [attraction 1], [attraction 2], and [attraction 3]. These attractions offer unique experiences and are highly recommended for visitors.
-            </p>
+                  Morocco offers a range of captivating tourist attractions. Explore the vastness of the Sahara Desert, wander through the bustling souks of Marrakech's Medina, discover the enchanting blue streets of Chefchaouen's Blue City, and embark on an unforgettable adventure in the stunning Atlas Mountains.            </p>
           )}
         </div>
         <div className="qst">
@@ -84,8 +83,7 @@ function Questions() {
           </div>
           {showAnswer2 && (
             <p className="seconde-part a-2">
-              The city offers various transportation options for getting around. You can use public buses, taxis, or ride-sharing services like Uber or Lyft. Additionally, there are bike-sharing programs and pedestrian-friendly areas, making it easy to explore the city on foot or by bicycle.
-            </p>
+                Getting around Moroccan cities is convenient and diverse. Use the efficient public transportation systems, including buses and trains, which connect major cities and towns. Taxis are readily available for shorter distances, and walking is a great way to explore the narrow streets of the medinas and immerse yourself in the local culture.            </p>
           )}
         </div>
         <div className="qst">
@@ -111,8 +109,7 @@ function Questions() {
           </div>
           {showAnswer3 && (
             <p className="seconde-part a-3">
-              Yes, there are several local restaurants known for their delicious cuisine. Some highly recommended options include [restaurant 1], known for its [specialty dish], [restaurant 2], famous for its [specialty dish], and [restaurant 3], which offers a wide range of [local cuisine]. Don't miss the opportunity to try these culinary delights!
-            </p>
+              Morocco boasts a rich culinary heritage. Indulge in traditional Moroccan dishes such as fragrant tagines, flavorful couscous, and refreshing mint tea. For an authentic dining experience, visit renowned restaurants like "Le Jardin" in Marrakech, known for its beautiful garden setting and delectable Moroccan cuisine, or "Café Clock" in Fez, offering a fusion of Moroccan and international flavors.            </p>
           )}
         </div>
         <div className="qst">
@@ -138,8 +135,7 @@ function Questions() {
           </div>
           {showAnswer4 && (
             <p className="seconde-part a-4">
-              The best time to visit for favorable weather is typically during [season 1] or [season 2]. During these seasons, the weather is generally pleasant with mild temperatures and minimal rainfall. It's a great time to explore outdoor attractions and enjoy various outdoor activities.
-            </p>
+To experience favorable weather conditions, plan your visit to Morocco during the spring (March to May) and autumn (September to November). During these seasons, temperatures are pleasant, and you can enjoy mild days for exploring the cities and cooler evenings for a comfortable stay.           </p>
           )}
         </div>
       </div>
