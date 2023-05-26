@@ -172,4 +172,7 @@
   .header .navBar .navList .signBtn:hover a {
     color: #fff;
   }
+}
+.remove {
+  display: none !important;
 }/*# sourceMappingURL=nav.css.map */

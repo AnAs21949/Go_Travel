@@ -16,12 +16,15 @@ function Navbar() {
     }
 
     const [Change,setChange] = React.useState("header")
+    const [Sign, setSign] = React.useState("signBtn")
     const addBg = () => {
         if(window.scrollY >= 10){
             setChange("header activeHeader")
+            setSign("signBtn remove")
         }
         else{
             setChange("header")
+            setSign("signBtn")
         }
     }
     window.addEventListener("scroll", addBg)
@@ -46,6 +49,7 @@ function Navbar() {
             });
           });
         }
+
       }
   return (
     <div>
@@ -63,7 +67,7 @@ function Navbar() {
 
                         <div className="headerBtns flex">
                             
-                            <button className="signBtn" onClick={scrollPage} id='element'>
+                            <button className={Sign} onClick={scrollPage} id='element'>
                                 <a href="#">Offers</a>
                             </button>
                         </div>
