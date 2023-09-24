@@ -25,7 +25,7 @@ function Questions() {
   };
 
   return (
-    <section className="Questions">
+    <section className="Questions" >
       <div className="header">
         <p className="q-title">Frequently Asked Questions</p>
         <p className="q-motivation">

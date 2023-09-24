@@ -22,7 +22,7 @@ import img23 from "../../assets/offre2/Capture3.png"
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 function Ouroff() {
   return (
-    <div>
+    <div id='offers-section'>
         <h1 className='bigTitle'>Offers</h1>
 
         <h2 className='sma'>10 Days offer</h2>
@@ -30,7 +30,6 @@ function Ouroff() {
                 options={ {
                     rewind: true,
                     perPage: 3,
-                    rewind : true,
                     gap:"2rem",
                   } }
                 >
@@ -59,7 +58,6 @@ function Ouroff() {
                 options={ {
                     rewind: true,
                     perPage: 3,
-                    rewind : true,
                     gap:"2rem",
                   } }
                 >

@@ -78,7 +78,7 @@ export default function Footer(){
                         Contact Us
                     </span>
                     <span className="phone">+121 764 099 700</span>
-                    <span className="email">anamed@gmail.com</span>
+                    <span className="email">GoTravel@gmail.com</span>
                 </div>
 
 

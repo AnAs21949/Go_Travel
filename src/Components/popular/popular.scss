@@ -33,28 +33,7 @@
                     text-transform: uppercase;
                 }
             }
-            .iconsDiv{
-                gap: .5rem;
-                .icon{
-                    padding: 0.5rem;
-                    background: var(--greyText);
-                    border-radius: 50%;
-                    font-size: 2.5rem;
-                    &:hover{
-                        background: var(--blackColor);
-                        color: var(--WhiteColor);
-                    }
-                }
-
-                .leftIcon{
-                    // background: var(--blackColor);
-                    color: var(--WhiteColor);
-                    &:hover{
-                        background: var(--greyText);
-                        color: var(--BlackColor);
-                    }
-                }
-            }
+            
         }
     }
 
@@ -65,7 +44,6 @@
         .singleDestinantion{
             overflow: hidden;
             border-radius: 1rem;
-            // box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.45);
             .destImage{
                 height: 350px;
                 width: 100%;
@@ -77,72 +55,9 @@
                 border-radius: 1rem;
 
                 }
-                // .overlayInfo{
-                //     // position: absolute;
-                //     display: flex;
-                //     align-items: flex-start;
-                //     padding: 0;
-                //     // padding: 1rem 1.5rem;
-                //     justify-content: center;
-                //     flex-direction: column;
-                //     background: linear-gradient(rgba(0, 0, 0, 0.846), rgba(0, 0, 0, 0.759));
-                //     bottom: 0;
-                //     width: 100%;
-                //     // height: 100%;
-                //     height: 0;
-                //     overflow: hidden;
-                //     h3{
-                //         color: var(--WhiteColor);
-                //         font-weight: 600;
-                //     }
-
-                //     p{
-                //         color: var(--WhiteColor);
-                //         opacity: .7;
-                //         font-size: 13px;
-                //     }
-
-                //     .icon{
-                //         position: absolute;
-                //         right: 10px;
-                //         bottom: 10px;
-                //         padding: .5rem;
-                //         background: var(--PrimaryColor);
-                //         font-size: 2.5rem;
-                //         border-radius: 50%;
-                //         color: var(--WhiteColor);
-                //         border: 1px solid transparent;
-                //         transition: .8 ease;
-
-                //         &:hover{
-                //             negative: var(--blackColor);
-                //             border: 1px solid var(--PrimaryColor);
-                //             color: var(--PrimaryColor);
-                //         }
-                //     }
-
-                // }
+               
             }
             .destFooter{
-                // padding: 1rem;
-                // .number{
-                //     font-size: 2rem;
-                //     font-weight: 700;
-                //     color: var(--BlackColor);
-                //     // position: relative;
-                //     width: max-content;
-                //     // &::after{
-                //     //     content: '';
-                //     //     // position: absolute;
-                //     //     background: var(--PrimaryColor);
-                //     //     top: 45%;
-                //     //     right: -150%;
-                //     //     height: 5px;
-                //     //     width: 45px;
-                //     //     border-radius: 1rem;
-
-                //     // }
-                // }
                 .destText{
                     margin-top: .8rem;
                     h6{

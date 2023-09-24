@@ -30,26 +30,6 @@
   font-weight: 500;
   text-transform: uppercase;
 }
-.popular .secContainer .secHeader .iconsDiv {
-  gap: 0.5rem;
-}
-.popular .secContainer .secHeader .iconsDiv .icon {
-  padding: 0.5rem;
-  background: var(--greyText);
-  border-radius: 50%;
-  font-size: 2.5rem;
-}
-.popular .secContainer .secHeader .iconsDiv .icon:hover {
-  background: var(--blackColor);
-  color: var(--WhiteColor);
-}
-.popular .secContainer .secHeader .iconsDiv .leftIcon {
-  color: var(--WhiteColor);
-}
-.popular .secContainer .secHeader .iconsDiv .leftIcon:hover {
-  background: var(--greyText);
-  color: var(--BlackColor);
-}
 .popular .mainContent {
   padding: 2rem;
   margin-top: 3rem;

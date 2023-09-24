@@ -14,8 +14,8 @@
 .about{
     padding: 0 3rem;
     background: #d9a7c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     .secContainer{
         .title{
@@ -33,17 +33,12 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
             text-align: center;
 
             img{
-                // background: rgba(247, 144, 54, .265);
-                // width: 100px;
                 border-radius: 10px;
-                // padding: 1rem;
-
             }
             a{
                 font-weight: 700;
                 color: var(--BlackColor);
                 padding: 0.5rem;
-
             }
             p{
                 font-size: 13px;
