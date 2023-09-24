@@ -40,8 +40,8 @@ function Navbar() {
                 </a>
             </div>
 
-            <button className="signBtn"  id='offers'>
-                <a href="#offers" id='offers' onClick={() => scrollPage("offers")} >Offers</a>
+            <button className="signBtn" onClick={() => scrollPage("offers")}  id='offers'>
+                Offers
             </button>
 
         </div>

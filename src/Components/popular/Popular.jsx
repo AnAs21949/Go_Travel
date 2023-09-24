@@ -40,7 +40,7 @@ export default function Popular(){
                         </h2>
                         <p>
                             form historical cities to natural
-                            spectaculer, come see the best of the world!
+                            spectacular, come see the best of the world!
                         </p>
                     </div>
                 </div>

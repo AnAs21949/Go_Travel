@@ -57,9 +57,6 @@
   font-size: 1.4rem;
   cursor: pointer;
 }
-.signBtn a {
-  color: black;
-}
 .signBtn:hover {
   color: var(--WhiteColor);
   outline: none;
